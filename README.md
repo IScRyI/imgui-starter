@@ -3,8 +3,9 @@ a premake template for imgui project using glfw and opengl3
 works on linux, windows, mac osx (not tested) 
 
 # Usage
-to rename your project open premake5.lua and change the string to the line starting with project.
-to compile the project, run the premake script with one of the arguments below : 
+For clone this project use "git clone --recurse-submodules https://github.com/IScRyI/imgui-starter.git".
+To rename your project open premake5.lua and change the string to the line starting with project.
+To compile the project, run the premake script with one of the arguments below : 
 
  - vs2022	Generate Visual Studio 2022 project files
  - vs2019	Generate Visual Studio 2019 project files
