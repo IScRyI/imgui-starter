@@ -2,8 +2,9 @@
 a premake template for imgui project using glfw and opengl3
 works on linux, windows, mac osx (not tested) 
 
-# Usage
-For clone this project use "git clone --recurse-submodules https://github.com/IScRyI/imgui-starter.git".
+# Getting Started
+
+For clone this project use `git clone --recurse-submodules https://github.com/IScRyI/imgui-starter.git`.
 To rename your project open premake5.lua and change the string to the line starting with project.
 To compile the project, run the premake script with one of the arguments below : 
 
@@ -21,7 +22,13 @@ To compile the project, run the premake script with one of the arguments below :
  - xcode4	XCode projects
  - codelite	CodeLite projects
  
-If you use the makefile the compilation is done by default in the Debug mode to compile in Release mode used this argument : config=release_x86_64.
+If you use the makefile the compilation is done by default in the Debug mode to compile in Release mode used this command : `make config=release_x86_64`.
 For problems related to the use of premake read this : https://premake.github.io/docs/Your-First-Script.
 
-Attention if you modify the name of the project after having compiled a first time do not forget to execute the command "make clean" is to go suprimer Makefile in the libraries is the core of the project.
+Warning if you modify the name of the project after having compiled a first time do not forget to execute the command `make clean` is to go suprimer Makefile in the libraries is the core of the project.
+
+
+### 3rd party libaries
+- [Dear ImGui](https://github.com/ocornut/imgui)
+- [GLFW](https://github.com/glfw/glfw)
+- [GLM](https://github.com/g-truc/glm) (included for convenience)
