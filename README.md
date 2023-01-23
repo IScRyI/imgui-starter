@@ -1,4 +1,4 @@
-# starter-imgui
+# imgui-starter
 a premake template for imgui project using glfw and opengl3
 works on linux, windows, mac osx (not tested) 
 
